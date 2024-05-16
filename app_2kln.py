@@ -104,7 +104,7 @@ if(pred == True):
     elif(predict == 0):
         st.write("## vous avez 99.99% de chance d'echouer")
     else:
-      st.write("### brovor!! vous avec 99.99% de chance de reussir")
+      st.write("### brovoOOO!! vous avec 99.99% de chance de reussir")
     st.title('CONSEIL PRATIQUE')
     if(predict == 0 | predict == 1):
             if(donnee_entre['cours_repetition'] ==0 & donnee_entre['dejeuner'] == 0):
