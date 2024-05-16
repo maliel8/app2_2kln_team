@@ -87,11 +87,12 @@ st.sidebar.write("afficher les donnees")
 bt = st.sidebar.button('afficher')
 
 if(bt == True):
+    st.title('Donnees')
     st.write(donnee_pred)
 
-st.title('Donnees')
+
 # Chargez le modèle à partir du fichier .joblib
-ref = joblib.load('model_ref.joblib')
+ref = joblib.load('model_ref1.joblib')
 pred = st.sidebar.button('executer')
      
 if(pred == True):
